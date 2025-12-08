@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/banner.png);
+    opacity: 150%;
+    background-position: center;
+    
+    background-size: cover ;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-list {
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline; /* inline-block */
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; 
+}
+nav ul li:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 0.5s;
+}
+.text-box{
+    color: #000;
+    top:  50%;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+.text-box h1{
+    font-size: 60px;
+}
+.text-box p{
+    margin: 20px  40px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.text-box button{
+    color:#fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border: solid black;
+    font-size: 15px;
+    
+}
+.text-box button:hover{
+    background-color: rgb(73, 137, 255);
+    transition: 1s;
+}
+
+/* content section  campus */
+
+.content {
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.content h1 {
+    margin-bottom: 20px;
+}
+.content p {
+    margin-bottom: 50px;
+    line-height: 25px;
+    color: gray;
+}
+.course-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.course-row h3{
+    padding: 20px;
+    text-align: center;
+}
+.course-row p{
+    text-align: justify;
+    line-height: 25px;
+}
+.course-col{
+    background-color: lightpink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 12px; 
+    transition: 0.5s;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgb(123, 123, 124);
+}
+
+/* content section  campus */
+
+.campus{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+} 
+.campus h1{
+    margin-bottom: 20px;
+}
+.campus p{
+    margin-bottom: 50px;
+    line-height: 25px;
+    color: gray;
+}
+.campus-col{
+    /* flex-basis: 32%;  */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative; 
+    overflow: hidden; 
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+.campus-col .layer{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.campus-col .layer:hover{
+    background: rgba(251, 104, 104, 0.7);
+}
+.campus-col h3{
+    width: 100%;
+    font-weight: 300;
+    padding-top: 50%;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.campus-col h3:hover{
+    opacity: 1;
+    bottom: 49%;
+}
+
+/*    facilities    */
+
+.facilities{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.facilities-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+} 
+.facilities h1{
+    margin-bottom: 20px;
+}
+.facilities p{
+    margin-bottom: 50px;
+    line-height: 25px;
+    color: gray;
+}
+.facilities-col img{
+    width: 100%;
+    display: block;
+}
+.facilities-col{
+    /* flex-basis: 32%;  */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative; 
+    overflow: hidden; 
+}
+.facilities-row h3{
+    padding: 20px;
+    text-align: center;
+}
+.facilities-row p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+    /* Students review */
+
+.students{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.students-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+} 
+.students h1{
+    margin-bottom: 20px;
+}
+.students p{
+    margin-bottom: 50px;
+    line-height: 25px;
+    color: gray;
+}
+.students-col{
+    display: flex;
+    background-color: lightpink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 12px; 
+    transition: 0.5s;
+}
+.students .user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.students p{
+        text-align: justify;
+        padding: 0px 10px;
+}
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    /* background-image:linear-gradient(rgba (0,0,0,0.7) url(images/banner2.jpg); */
+    background: rgba(0, 0, 0, 0.7) url(images/banner2.jpg);
+    opacity: 150%;
+    background-position: center;
+    background-size: cover ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.contact h1{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact button{
+    color:#000;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border: solid black;
+    font-size: 20px;
+}
+.contact button:hover{
+    background-color: rgb(73, 137, 255);
+    transition: 1s;
+    
+}
