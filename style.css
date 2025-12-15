@@ -6,7 +6,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:url(images/banner.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
+
     opacity: 150%;
     background-position: center;
     
@@ -35,7 +36,7 @@ nav ul li{
 .nav-list a{
     color: white;
     text-decoration: none;
-    font-size: 1rem; 
+    font-size: 0.8rem; 
 }
 nav ul li:hover{
     text-decoration: underline;
@@ -43,7 +44,7 @@ nav ul li:hover{
     transition: 0.5s;
 }
 .text-box{
-    color: #000;
+    color: #fff;
     top:  50%;
     position: relative;
     text-align: center;
@@ -56,9 +57,7 @@ nav ul li:hover{
     margin: 20px  40px;
     text-align: center;
     line-height: 25px;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 0;
+    padding: 20px 45px;
 }
 .text-box button{
     color:#fff;
@@ -66,7 +65,7 @@ nav ul li:hover{
     background: transparent;
     position: relative;
     cursor: pointer;
-    border: solid black;
+    border: solid #fff;
     font-size: 15px;
     
 }
@@ -244,7 +243,9 @@ nav ul li:hover{
 }
 .students-col{
     display: flex;
+    flex-direction: column;
     background-color: lightpink;
+    justify-content: space-between;
     border-radius: 10px;
     margin-bottom: 5%;
     box-sizing: border-box;
@@ -260,11 +261,15 @@ nav ul li:hover{
         text-align: justify;
         padding: 0px 10px;
 }
+.user-1{
+    display: flex;
+}
 .contact{
     margin: 100px auto;
-    width: 80%;
+    width: 99%;
+    height: 300px;
     /* background-image:linear-gradient(rgba (0,0,0,0.7) url(images/banner2.jpg); */
-    background: rgba(0, 0, 0, 0.7) url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner2.jpg);
     opacity: 150%;
     background-position: center;
     background-size: cover ;
@@ -277,18 +282,35 @@ nav ul li:hover{
     position: relative;
     text-align: center;
     padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 .contact button{
-    color:#000;
+    color:#fff;
     padding: 12px 34px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    border: solid black;
+    border: solid #fff;
     font-size: 20px;
 }
 .contact button:hover{
     background-color: rgb(73, 137, 255);
     transition: 1s;
-    
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-right: 50px;
+    color: gray;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
 }
