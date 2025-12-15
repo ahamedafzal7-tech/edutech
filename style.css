@@ -8,6 +8,8 @@
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
 
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
+
     opacity: 150%;
     background-position: center;
     
@@ -44,7 +46,7 @@ nav ul li:hover{
     transition: 0.5s;
 }
 .text-box{
-    color: #fff;
+    color: #000;
     top:  50%;
     position: relative;
     text-align: center;
@@ -57,7 +59,9 @@ nav ul li:hover{
     margin: 20px  40px;
     text-align: center;
     line-height: 25px;
-    padding: 20px 45px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
 }
 .text-box button{
     color:#fff;
@@ -65,7 +69,7 @@ nav ul li:hover{
     background: transparent;
     position: relative;
     cursor: pointer;
-    border: solid #fff;
+    border: solid black;
     font-size: 15px;
     
 }
@@ -273,6 +277,7 @@ nav ul li:hover{
     height: 300px;
     /* background-image:linear-gradient(rgba (0,0,0,0.7) url(images/banner2.jpg); */
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner2.jpg);
     opacity: 150%;
     background-position: center;
     background-size: cover ;
@@ -301,7 +306,6 @@ nav ul li:hover{
 .contact button:hover{
     background-color: rgb(73, 137, 255);
     transition: 1s;
-    
 }
 footer{
     text-align: center;
